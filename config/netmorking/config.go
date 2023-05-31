@@ -8,4 +8,9 @@ func Configure(p *config.Provider) {
 	})
 	p.AddResourceConfigurator("openstack_networking_addressscope_v2", func(r *config.Resource) {
 	})
+	p.AddResourceConfigurator("openstack_networking_floatingip_associate_v2", func(r *config.Resource) {
+	})
+	p.AddResourceConfigurator("openstack_networking_floatingip_v2", func(r *config.Resource) {
+	})
+
 }
