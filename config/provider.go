@@ -8,13 +8,13 @@ import (
 	// Note(turkenh): we are importing this to embed provider schema document
 	_ "embed"
 
-	"github.com/stakater/provider-openstack/config/compute"
+	"github.com/martinnirtl/provider-openstack/config/compute"
 	ujconfig "github.com/upbound/upjet/pkg/config"
 )
 
 const (
 	resourcePrefix = "openstack"
-	modulePath     = "github.com/stakater/provider-openstack"
+	modulePath     = "github.com/martinnirtl/provider-openstack"
 )
 
 //go:embed schema.json
