@@ -1,3 +1,6 @@
+## This repository is no longer maintained!
+
+The provider was initially created for a proof of concept and got moved to [crossplane-contrib/provider-openstack](https://github.com/crossplane-contrib/provider-openstack) in the meantime to be maintained by the community.
 # Provider OpenStack
 
 `provider-openstack` is a [Crossplane](https://crossplane.io/) provider that
